@@ -23,10 +23,9 @@ function callvalues() {
     var senderaddr = document.getElementById("saddr").value;
     var recieveraddr = document.getElementById("raddr").value;
 
-    document.writeln("Your Details" + "<br>"+sender);
-
-
-
+    document.writeln("Your Details" + "<br>");
+    
+}
 
 
 
@@ -42,6 +41,8 @@ const operatorKey = PrivateKey.fromString(process.env.OPERATOR_PVKEY);
 const client = Client.forTestnet().setOperator(operatorId, operatorKey);
 
 async function main() {
+
+   
     // Import the compiled contract bytecode
     const contractBytecode = fs.readFileSync("LookuContract_sol_LookupContract.bin");
 
@@ -55,7 +56,7 @@ async function main() {
     const fileCreateRx = await fileCreateSubmit.getReceipt(client);
     const bytecodeFileId = fileCreateRx.fileId;
     console.log(`- The bytecode file ID is: ${bytecodeFileId} \n`);
-    
+
     // Instantiate the smart contract
     const contractInstantiateTx = new ContractCreateTransaction()
         .setBytecodeFileId(bytecodeFileId)
@@ -70,7 +71,7 @@ async function main() {
     console.log(`-the sender name is: ${sender}\n`);
     console.log(`- The smart contract ID is: ${contractId} \n`);
     console.log(`- The smart contract ID in Solidity format is: ${contractAddress} \n`);
-
+    document.writeln("Your Details" + "<br>");
     // Query the contract to check changes in state variable
     const contractQueryTx = new ContractCallQuery()
         .setContractId(contractId)
@@ -102,7 +103,4 @@ async function main() {
     console.log(`- Here's the phone number that you asked for: ${contractQueryResult1} \n`);
 
 }
-    document.writeln(main());
-    
-
-}
+main();
