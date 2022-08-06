@@ -1,4 +1,4 @@
-# HederaTransactions
+# Hedera Transactions
 This is BlockChain Based Transaction Website.
 ## This my Github Hosted website Link
 -https://ishabhthakur.github.io/HederaTransaction-project-KuHackfest/
