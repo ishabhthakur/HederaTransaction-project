@@ -1,7 +1,7 @@
 # HederaWallet
 This is BlockChain Based Transaction Website.
 ## This my Github Hosted website Link
--https://ishabhthakur.github.io/Hedera-project-KuHackfest/
+-https://ishabhthakur.github.io/HederaWallet-project-KuHackfest/
 
 ## Future Ready Talent (FRT)-2022
 ## Project published by Ishabh Thakur under KU-HackFest'2022.
