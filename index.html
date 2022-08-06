@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+        document.getElementById('connect-button').addEventListener('click',  event => {
+            let account;
+            ethereum.request({method: 'eth_requestAccounts'}).then(accounts=>{
+                 account = accounts[0];
+                console.log(account);
+            });
+           
+        });
+    </script>
+    <script src="dotenv"></script>
     <script src="index.js"></script>
 </head>
 
@@ -24,12 +35,13 @@
                 </ul>
                 <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
             </div>
-            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="#">Connect Wallet!</a></div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button"><button id="connect-button">Connect Wallet!</button></a></div>
         </div>
     </nav>
 
-<h1>Fill Transaction Details</h1>
-<form onsubmit="callvalues(); main()">
+<h1>Fast Transaction at Minimum Gas Fees<br></h1>
+<h4>Fill Transaction Details</h4>
+<form onsubmit="callvalues()">
     <div class="table-responsive">
         <table class="table">
             <thead>
@@ -41,12 +53,16 @@
             <tbody>
                 <tr>
                     
-                    <td class="fw-bold"><br><strong>Name:&nbsp;</strong><input type="text" style="margin-right: -3px;" placeholder="Sender Name" id="sname"></td>
-                    <td class="fw-bold"><br><strong>Name:&nbsp;</strong><input type="text" placeholder="Reciever Name"id="rname"></td>
+                    <td class="fw-bold"><br><strong>Name:&nbsp;</strong><input type="text" style="margin-right: -3px;" placeholder="Sender Name" id="sname" autocomplete="off"></td>
+                    <td class="fw-bold"><br><strong>Name:&nbsp;</strong><input type="text" placeholder="Reciever Name"id="rname"autocomplete="off"></td>
                 </tr>
                 <tr>
-                    <td class="fw-bold"><br><strong>Wallet Address:</strong><br><input class="form-control-lg" type="text" placeholder="0x..." id="saddr"><br><br></td>
-                    <td class="fw-bold"><br><strong>Wallet Address:</strong><br><input class="form-control-lg float-none d-xl-flex" type="text" placeholder="0x...." id="raddr"></td>
+                    <td class="fw-bold"><br><strong>Wallet Address:</strong><br><input class="form-control-lg" type="text" placeholder="0x..." id="saddr"autocomplete="off"><br><br></td>
+                    <td class="fw-bold"><br><strong>Wallet Address:</strong><br><input class="form-control-lg float-none d-xl-flex" type="text" placeholder="0x...." id="raddr"autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td class="fw-bold"><br><strong>Amount To Transfer:</strong><br><input class="form-control-lg" type="text" placeholder="0.0000ETH" id="AmtTransfer"><br><br></td>
+                    <td class="fw-bold"><br><strong>Gas Fees:</strong><br><input class="form-control-lg" type="text" placeholder="$0.0001USD" id="GFees"><br><br></td>
                 </tr>
                 
             </tbody>
