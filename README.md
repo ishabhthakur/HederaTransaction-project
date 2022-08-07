@@ -42,6 +42,9 @@ $ npm install -g solc
 To deploy this project run
 
 ```bash
+# To Compile the SmartContract into Byte Code
+  node solc LookuContract.solc
+ # Execute 
   node index.js
 ```
 
