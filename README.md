@@ -10,7 +10,7 @@ This is BlockChain Based Transaction WebApp.
 ## Youtube video For my project Demonstration.
 -Youtube: https://www.youtube.com/watch?v=TFMjCnh6N94
 
-##Detailed  Presentation Link of Project By Github Student Developer PACK:
+## Detailed  Presentation Link of Project By Github Student Developer PACK:
 - Canva : https://www.canva.com/design/DAFIkChDwgw/aaOuZKDZg0o3kQ_0eK9omQ/edit?utm_content=DAFIkChDwgw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Project Description
@@ -44,8 +44,8 @@ We Made a Transaction web APP that will instantaneously execute the Transaction 
 ## My Smart Contract
 ![Screenshot 2022-08-07 055644](https://user-images.githubusercontent.com/82073000/183270176-291c5765-fe9a-433a-a1f4-424dd740996f.jpg)
 
-##Submission Details
-#Here are the transaction Details that index js file will return
+## Submission Details
+# Here are the transaction Details that index js file will return
 
 ![Screenshot 2022-08-07 054220](https://user-images.githubusercontent.com/82073000/183270248-dbba874e-fe77-435d-ad69-424ed7237acf.jpg)
 
