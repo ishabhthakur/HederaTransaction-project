@@ -1,19 +1,19 @@
-# Hedera Transaction WebApp
+## Hedera Transaction WebApp
 
 This is BlockChain Based Transaction WebApp.
 
-## This my Github Hosted website Link
+# This my Github Hosted website Link
 -https://ishabhthakur.github.io/HederaTransaction-project-KuHackfest/
 
-## Project published by Ishabh Thakur under KU-HackFest'2022.
+ Project published by Ishabh Thakur under KU-HackFest'2022.
 
-## Youtube video For my project Demonstration.
+# Youtube video For my project Demonstration.
 -Youtube: https://www.youtube.com/watch?v=TFMjCnh6N94
 
 ## Detailed  Presentation Link of Project By Github Student Developer PACK:
 - Canva : https://www.canva.com/design/DAFIkChDwgw/aaOuZKDZg0o3kQ_0eK9omQ/edit?utm_content=DAFIkChDwgw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## Project Description
+### Project Description
 We Made a Transaction Web APP the Transaction and instantly provides you Transaction Confirmations Details.We Deploy Hedera Network Service( Smart Contracts) in our Project to build this application .
 
 -We Deploy Hedera Network Service( Smart Contracts) in our Project to build this applications that provides us high throughput and low-latency consensus finality in seconds built on hedera .
@@ -22,6 +22,31 @@ We Made a Transaction web APP that will instantaneously execute the Transaction 
 -This Services are working on the toP of hashgraph is a distributed consensus algorithm and data structure that is fast, fair, and secure.
 
 -Suppose A person wants to send money to B person. Then his transfer is represented as a block . Then Block is broadcasted to everyone in the network . Approved as valid from everyone in the network. Now when the Block is added to the providing an indelible and transparent Record of Transaction. So Now with our Web app Using Hashgraph we Complete our transaction in no-time. i.e., 10x Faster than Block Chain Technology
+
+## Tech Stack Needed:
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+
+## Packages Used
+To install Packages
+
+```bash
+$ npm install dotenv --save
+  # Hedera Hashgraph package
+$ npm install --save @hashgraph/sdk
+  # Solidity Compiler
+$ npm install -g solc
+```
+## Deployment
+
+To deploy this project run
+
+```bash
+  node index.js
+```
+
+
+
 
 
 
@@ -48,7 +73,6 @@ We Made a Transaction web APP that will instantaneously execute the Transaction 
 # Here are the transaction Details that index js file will return
 
 ![Screenshot 2022-08-07 054220](https://user-images.githubusercontent.com/82073000/183270248-dbba874e-fe77-435d-ad69-424ed7237acf.jpg)
-
 
 
 
