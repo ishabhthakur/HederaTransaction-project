@@ -1,7 +1,8 @@
 # ✨Hedera Transaction APP✨
 
 
-This is BlockChain Based Transaction WebApp.
+> This is BlockChain Based Transaction WebApp.
+
 ![us](https://user-images.githubusercontent.com/82073000/183270971-592f85a1-46e6-4830-9a1f-4c267797c0b9.jpg)
 
 
@@ -32,6 +33,8 @@ We Made a Transaction web APP that will instantaneously execute the Transaction 
 <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <img src="https://user-images.githubusercontent.com/82073000/183271359-ac65e36f-4238-46f9-bb78-642eca4f4447.png" width="70" height="40"> <img src="https://user-images.githubusercontent.com/82073000/183271399-07c02a2b-f0ba-4d30-ae46-ec47c01bcc06.png" width="90" height="40"></p>
 
 ## Packages Used
+[![NPM version](https://img.shields.io/npm/v/dotenv.svg?style=flat-square)](https://www.npmjs.com/package/dotenv)
+
 To install Packages
 
 ```bash
