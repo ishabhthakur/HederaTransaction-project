@@ -9,7 +9,7 @@
 ## This my Github Hosted website Link
 -https://ishabhthakur.github.io/HederaTransaction-project-KuHackfest/
 
- Project published by Ishabh Thakur under KU-HackFest'2022.
+ Project published by Ishabh Thakur 
 
 ## Youtube video For my project Demonstration.
 -Youtube: https://www.youtube.com/watch?v=TFMjCnh6N94
